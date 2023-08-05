@@ -17,6 +17,8 @@
   ]
 ); */
 
+//Element creation
+
 const header = React.createElement('h1',{},"First React App");
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(header);
